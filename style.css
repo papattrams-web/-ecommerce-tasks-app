@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    color: #222222;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.button,
+button {
+    display: inline-block;
+    background: #205ea8;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.task {
+    border-top: 1px solid #cccccc;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.task h2 {
+    margin-bottom: 5px;
+}
+
+.task a {
+    margin-right: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #999999;
+    font: inherit;
+}
+
+form button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #a00000;
+}
+
+.empty-message {
+    margin-top: 25px;
+}
